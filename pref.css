@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color:hsl(30, 38%, 92%)
+}
+.card {
+background-color: white;
+  color: hsl(212, 21%, 14%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 461px;
+  border-radius: 10px;
+}
+.m {
+width: 289px;
+  height: 461px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  font-size: 16px;
+  position: absolute;
+  top: 22px;
+  left: 330px;
+  opacity:59%;
+}
+h2 {
+font-family: 'Fraunces', serif;
+  font-weight: 700;
+  left: 318px;
+  font-size: 35px;
+  top: 37px;
+  position: absolute;
+  text-transform: capitalize;
+  padding-right:20px;
+}
+p {
+  font-size: 15px;
+  opacity: 62%;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 318px;
+  top: 215px;
+  padding-right: 20px;
+}
+.price {
+  position:absolute;
+  font-size:33px;
+  left:318px;
+  top:277px;
+  font-family:'Fraunces', serif;
+  color:hsl(158, 36%, 37%)
+}
+.uprice {
+position: absolute;
+  font-size: 16px;
+  left: 486px;
+  top: 305px;
+  opacity: 57%;
+  text-decoration: line-through;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 301px;
+  top: 381px;
+  height: 59px;
+  width: 285px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 11px;
+  font-size: 18px;
+  padding-left: 23px;
+  font-family: 'Montserrat', sans-serif;
+  transition-duration: .5s;
+  cursor:pointer;
+}
+.cart {
+  position: absolute;
+  left: 67px;
+  top: 19px;
+  width: 20px;
+}
+button:hover {
+  background-color: hsl(159, 35%, 19%);
+}
